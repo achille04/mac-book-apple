@@ -36,7 +36,9 @@ button:hover{
     padding: 0 100px;
 }
 
-/* Website Layout CSS */
+                                /*-------------------------------- 
+                                        Website Layout CSS
+                                --------------------------------*/
 
  .website_layout{
    padding-left: 100px;
@@ -65,22 +67,9 @@ img{
     padding-top: 30px;
 }
 
-.apply_button_css{
-
-    color: #ffffff;
-    background-color: #DC3545;
-    cursor: pointer;
-    padding: 8px 20px;
-    border-radius: 5px;
-    border: none;
-
-}
-
-.input_button_css{
-
-    padding: 5px 20px;
-
-}
+                                /*-------------------------------- 
+                                        Shopping Cart
+                                --------------------------------*/
 
 .list_css{
 
@@ -92,22 +81,12 @@ img{
 }
 
 
-.promo_code_area{
-
-    padding: 30px 0;
-
-}
-
 .total_hr_line{
     color: #000000;
     border-top: 2px solid #000000;
 }
 
-.footer_heading{
 
-    text-align: center;
-
-}
 
 .price_css{
 
@@ -115,9 +94,48 @@ img{
 
 }
 
+
+                                /*-------------------------------- 
+                                        Coupon Code CSS
+                                --------------------------------*/
+
+
+.promo_code_area{
+
+padding: 30px 0;
+
+}
+
+.apply_button_css{
+
+    color: #ffffff;
+    background-color: #DC3545;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.input_css{
+
+    padding: 5px 20px;
+
+}
+
+                                /*-------------------------------- 
+                                            Footer CSS
+                                --------------------------------*/
+
 .footer_hr{
 
     width: 80%;
     border: solid 1px #cacbcc;
     
+}
+
+.footer_heading{
+
+    text-align: center;
+
 }
