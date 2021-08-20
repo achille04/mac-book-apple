@@ -37,9 +37,9 @@
 
                     <h4>Memory</h4>
 
-                    <button class="layout_button">8GB unified memory</button>
+                    <button id="memory_button_8gb" class="layout_button">8GB unified memory</button>
 
-                    <button class="layout_button">16GB unified memory</button>
+                    <button id="memory_button_16gb" class="layout_button">16GB unified memory</button>
 
                 </div>
 
@@ -49,11 +49,11 @@
 
                     <h4>Storage</h4>
 
-                    <button class="layout_button">256GB SSD storage</button>
+                    <button id="storage_button_256gb" class="layout_button">256GB SSD storage</button>
 
-                    <button class="layout_button">512GB SSD storage</button>
+                    <button id="storage_button_512gb" class="layout_button">512GB SSD storage</button>
 
-                    <button class="layout_button">1TB SSD storage</button>
+                    <button id="storage_button_1tb" class="layout_button">1TB SSD storage</button>
 
                     </div>
 
@@ -63,9 +63,9 @@
 
                     <h4>Choose your delivery option</h4>
 
-                    <button class="layout_button">Friday, Aug 25 FREE Prime Delivery</button>
+                    <button id="free_delivery" class="layout_button">Friday, Aug 25 FREE Prime Delivery</button>
 
-                    <button class="layout_button">Friday, Aug 21 Delivery charge $20</button>
+                    <button id="charged_delivery" class="layout_button">Friday, Aug 21 Delivery charge $20</button>
 
                 </div>
 
@@ -76,14 +76,23 @@
                     <ul class="list_css">
     
                         <li>Best Price               <span class="price_css">$1299</span></li>
+
                         <hr>
-                        <li>Extra Memory Cost        <span class="price_css">$0</span></li>
+
+                        <li>Extra Memory Cost        <span class="price_css">$<span id="extra_memory">0</span></span></li>
+                        
                         <hr>
-                        <li>Extra Storage Cost       <span class="price_css">$0</span></li>
+
+                        <li>Extra Storage Cost       <span class="price_css">$<span id="extra_storage">0</span></span></li>
+
                         <hr>
-                        <li>Delivery Charge          <span class="price_css">$0</span></li>
+
+                        <li>Delivery Charge          <span class="price_css">$<span id="delivery_charge">0</span></span></li>
+
                         <hr class="total_hr_line">
-                        <li>Total Price              <span class="price_css">$1299</span></li>
+
+                        <li>Total Price              <span class="price_css">$<span id="">0</span></span></li>
+                        
                         <hr>
 
                     </ul>
