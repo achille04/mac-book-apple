@@ -23,6 +23,13 @@ hr{
     
 }
 
+button:hover{
+
+    background-color: #53d8d8;
+    transition: 1s;
+
+}
+
 
 .container{
     display: flex;
