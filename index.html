@@ -10,7 +10,9 @@
 <body>
     
 
-    <section class="container">
+    <main>
+
+        <section class="container">
 
             <!------------------------------- Image ----------------------------------------->
 
@@ -75,7 +77,7 @@
 
                     <ul class="list_css">
     
-                        <li>Best Price               <span class="price_css">$1299</span></li>
+                        <li>Best Price               <span class="price_css">$<span id="best_price">1299</span></span></li>
 
                         <hr>
 
@@ -91,7 +93,7 @@
 
                         <hr class="total_hr_line">
 
-                        <li>Total Price              <span class="price_css">$<span id="">0</span></span></li>
+                        <li>Total Price              <span class="price_css">$<span id="total_price">0</span></span></li>
                         
                         <hr>
 
@@ -101,9 +103,9 @@
     
                         <h4>Add Promo Code</h4>
 
-                        <input class="input_css" type="text">
+                        <input id="input_js" class="input_css" type="text">
 
-                        <button class="apply_button_css">Apply</button>
+                        <button id="apply_button" class="apply_button_css">Apply</button>
     
                     </div>
     
@@ -113,12 +115,14 @@
             </div>
 
     </section>
+
+    </main>
                         <!------------------------ Footer_Area ------------------------------>
     <footer>
 
         <hr class="footer_hr">
 
-        <h1 class="footer_heading">Total $1299</h1>
+        <h1 class="footer_heading">Total $<span id="total_price_with_Tax">1299</span></h1>
 
     </footer>
 
@@ -130,6 +134,8 @@
 
 
 
-<script src="js/script.js"></script>
+<!-- <script src="js/script.js"></script> -->
+<!-- <script src="js/script1.js"></script> -->
+<script src="js/main.js"></script>
 </body>
 </html>
