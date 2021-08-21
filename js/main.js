@@ -7,8 +7,7 @@
         const memoryPrice = extraMemory.innerText;
         const memoryFinalPrice = 0;
         extraMemory.innerText = memoryFinalPrice;
-    
-    
+        
         let memory = document.getElementById('extra_memory');
         let memorytext = memory.innerText
         let memoryAmount = parseInt(memorytext);
@@ -30,10 +29,7 @@
 
         var priceWithTax = document.getElementById('total_price_with_Tax')
         priceWithTax.innerText = total.innerText;
-                                
-                                
-                                    
-                                
+                                                
     });
                                 
 document.getElementById('memory_button_16gb').addEventListener('click', function(){
@@ -252,24 +248,22 @@ document.getElementById('charged_delivery').addEventListener('click', function()
     priceWithTax.innerText = total.innerText;
 
 });
+                            
 
+document.getElementById('apply_button').addEventListener('click', function(){
 
-/* document.getElementById('apply_button').addEventListener('click', function(){
+    let promoCode = document.getElementById('input_js');
 
-    const promoCode = document.getElementById('input_js');
-    const promoField = promoCode.value;
+    if(promoCode.value == 'stevekaku'){
 
-    const taxPriceOfTotal = document.getElementById('total_price_with_Tax');
-    const taxPrice = taxPriceOfTotal.innerText;
-    const totalTaxPrice = parseInt(taxPrice);
-    
-    if(promoCode == 'stevekaku' && totalTaxPrice == 1299){
+        let totalPrice = document.getElementById('total_price')
+        let totalPriceText = totalPrice.innerText;
+        let previousTotalPrice = parseInt(totalPriceText);
+        let finalTotalPrice = (previousTotalPrice * 20) / 100;
 
-        console.log('1234')
+        document.getElementById('total_price_with_Tax').innerText = previousTotalPrice - finalTotalPrice
 
     }
 
-}) */
-                                 
-                                
-                                
+})
+
